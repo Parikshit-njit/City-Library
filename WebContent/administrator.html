@@ -1,0 +1,282 @@
+<html>
+<head>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit], button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div, body {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<script>
+window.onload = function(){
+	document.getElementById("option1-div").style.display = 'none';
+	document.getElementById('option2-div').style.display = 'none';
+	document.getElementById('option3-div').style.display = 'none';
+	document.getElementById('option4-div').style.display = 'none';
+	document.getElementById("option5-div").style.display = 'none';
+	document.getElementById('option6-div').style.display = 'none';
+	document.getElementById('option7-div').style.display = 'none';
+	document.getElementById('option8-div').style.display = 'none';
+	document.getElementById('option9-div').style.display = 'none';
+	document.getElementById('option10-div').style.display = 'none';
+}
+function radioButtonCheck(){
+	if(document.getElementById("option1").checked){
+		document.getElementById("option1-div").style.display = 'block';
+		document.getElementById('option2-div').style.display = 'none';
+		document.getElementById('option3-div').style.display = 'none';
+		document.getElementById('option4-div').style.display = 'none';
+		document.getElementById("option5-div").style.display = 'none';
+		document.getElementById('option6-div').style.display = 'none';
+		document.getElementById('option7-div').style.display = 'none';
+		document.getElementById('option8-div').style.display = 'none';
+		document.getElementById('option9-div').style.display = 'none';
+		document.getElementById('option10-div').style.display = 'none';
+	}else if(document.getElementById("option2").checked){
+		document.getElementById("option1-div").style.display = 'none';
+		document.getElementById('option2-div').style.display = 'block';
+		document.getElementById('option3-div').style.display = 'none';
+		document.getElementById('option4-div').style.display = 'none';
+		document.getElementById("option5-div").style.display = 'none';
+		document.getElementById('option6-div').style.display = 'none';
+		document.getElementById('option7-div').style.display = 'none';
+		document.getElementById('option8-div').style.display = 'none';
+		document.getElementById('option9-div').style.display = 'none';
+		document.getElementById('option10-div').style.display = 'none';
+	}else if(document.getElementById("option3").checked){
+		document.getElementById("option1-div").style.display = 'none';
+		document.getElementById('option2-div').style.display = 'none';
+		document.getElementById('option3-div').style.display = 'block';
+		document.getElementById('option4-div').style.display = 'none';
+		document.getElementById("option5-div").style.display = 'none';
+		document.getElementById('option6-div').style.display = 'none';
+		document.getElementById('option7-div').style.display = 'none';
+		document.getElementById('option8-div').style.display = 'none';
+		document.getElementById('option9-div').style.display = 'none';
+		document.getElementById('option10-div').style.display = 'none';
+	}else if(document.getElementById("option4").checked){
+		document.getElementById("option1-div").style.display = 'none';
+		document.getElementById('option2-div').style.display = 'none';
+		document.getElementById('option3-div').style.display = 'none';
+		document.getElementById('option4-div').style.display = 'block';
+		document.getElementById("option5-div").style.display = 'none';
+		document.getElementById('option6-div').style.display = 'none';
+		document.getElementById('option7-div').style.display = 'none';
+		document.getElementById('option8-div').style.display = 'none';
+		document.getElementById('option9-div').style.display = 'none';
+		document.getElementById('option10-div').style.display = 'none';
+	}else if(document.getElementById("option5").checked){
+		document.getElementById("option1-div").style.display = 'none';
+		document.getElementById('option2-div').style.display = 'none';
+		document.getElementById('option3-div').style.display = 'none';
+		document.getElementById('option4-div').style.display = 'none';
+		document.getElementById("option5-div").style.display = 'block';
+		document.getElementById('option6-div').style.display = 'none';
+		document.getElementById('option7-div').style.display = 'none';
+		document.getElementById('option8-div').style.display = 'none';
+		document.getElementById('option9-div').style.display = 'none';
+		document.getElementById('option10-div').style.display = 'none';
+	}else if(document.getElementById("option6").checked){
+		document.getElementById("option1-div").style.display = 'none';
+		document.getElementById('option2-div').style.display = 'none';
+		document.getElementById('option3-div').style.display = 'none';
+		document.getElementById('option4-div').style.display = 'none';
+		document.getElementById("option5-div").style.display = 'none';
+		document.getElementById('option6-div').style.display = 'block';
+		document.getElementById('option7-div').style.display = 'none';
+		document.getElementById('option8-div').style.display = 'none';
+		document.getElementById('option9-div').style.display = 'none';
+		document.getElementById('option10-div').style.display = 'none';
+	}else if(document.getElementById("option7").checked){
+		document.getElementById("option1-div").style.display = 'none';
+		document.getElementById('option2-div').style.display = 'none';
+		document.getElementById('option3-div').style.display = 'none';
+		document.getElementById('option4-div').style.display = 'none';
+		document.getElementById("option5-div").style.display = 'none';
+		document.getElementById('option6-div').style.display = 'none';
+		document.getElementById('option7-div').style.display = 'block';
+		document.getElementById('option8-div').style.display = 'none';
+		document.getElementById('option9-div').style.display = 'none';
+		document.getElementById('option10-div').style.display = 'none';
+	}else if(document.getElementById("option8").checked){
+		document.getElementById("option1-div").style.display = 'none';
+		document.getElementById('option2-div').style.display = 'none';
+		document.getElementById('option3-div').style.display = 'none';
+		document.getElementById('option4-div').style.display = 'none';
+		document.getElementById("option5-div").style.display = 'none';
+		document.getElementById('option6-div').style.display = 'none';
+		document.getElementById('option7-div').style.display = 'none';
+		document.getElementById('option8-div').style.display = 'block';
+		document.getElementById('option9-div').style.display = 'none';
+		document.getElementById('option10-div').style.display = 'none';
+	}else if(document.getElementById("option9").checked){
+		document.getElementById("option1-div").style.display = 'none';
+		document.getElementById('option2-div').style.display = 'none';
+		document.getElementById('option3-div').style.display = 'none';
+		document.getElementById('option4-div').style.display = 'none';
+		document.getElementById("option5-div").style.display = 'none';
+		document.getElementById('option6-div').style.display = 'none';
+		document.getElementById('option7-div').style.display = 'none';
+		document.getElementById('option8-div').style.display = 'none';
+		document.getElementById('option9-div').style.display = 'block';
+		document.getElementById('option10-div').style.display = 'none';
+	}else{
+		document.getElementById("option1-div").style.display = 'none';
+		document.getElementById('option2-div').style.display = 'none';
+		document.getElementById('option3-div').style.display = 'none';
+		document.getElementById('option4-div').style.display = 'none';
+		document.getElementById("option5-div").style.display = 'none';
+		document.getElementById('option6-div').style.display = 'none';
+		document.getElementById('option7-div').style.display = 'none';
+		document.getElementById('option8-div').style.display = 'none';
+		document.getElementById('option9-div').style.display = 'none';
+		document.getElementById('option10-div').style.display = 'block';
+	}
+	
+}
+</script>
+</head>
+<body>
+<center><h1>Hello, Administrator!</h1></center>
+<center><h3><input type="radio" name="option" id="option1" onclick="radioButtonCheck();">&emsp;Add Document Copy</h3></center>
+<div id="option1-div">
+<form action='main'>
+	Document ID: <input type='text' name='add-docid' id='add-docid' required><br>
+	Branch ID: <input type='text' name='add-bid' id='add-bid' required><br>
+	Position: <input type='text' name='add-pos' id='add-pos' required><br>
+	<button type='submit' name='inadmin-submit-1' value='inadmin-submit-1'>Submit</button>
+</form>
+</div>
+
+<br><br><hr>
+
+
+<center><h3><input type="radio" name="option" id="option2" onclick="radioButtonCheck();">&emsp;Search Document Copy and Check Status</h3></center>
+<div id="option2-div">
+<form action='main'>
+	Document ID: <input type='text' name='sc-docid' id='add-docid' required><br>
+	<button type='submit' name='inadmin-submit-2' value='inadmin-submit-2'>Submit</button>
+</form>
+</div>
+
+<br><br><hr>
+
+
+<center><h3><input type="radio" name="option" id="option3" onclick="radioButtonCheck();">&emsp;Add Reader</h3></center>
+<div id="option3-div">
+<form action='main'>
+	Reader Type: <input type='text' name='rtype' id='rtype' required><br>
+	Reader Name: <input type='text' name='rname' id='rname' required><br>
+	Reader Address: <input type='text' name='raddress' id='raddress' required><br>
+	Reader Contact: <input type='text' name='rcontact' id='rcontact' required><br>
+	<button type='submit' name='inadmin-submit-3' value='inadmin-submit-3'>Submit</button>
+</form>
+</div>
+
+<br><br><hr>
+
+
+<center><h3><input type="radio" name="option" id="option4" onclick="radioButtonCheck();">&emsp;Retrieve Branch Information</h3></center>
+<div id="option4-div">
+<form action='main'>
+	Branch ID: <input type='text' name='bid' id='bid' required><br>
+	<button type='submit' name='inadmin-submit-4' value='inadmin-submit-4'>Submit</button>
+</form>
+</div>
+
+<br><br><hr>
+
+<center><h3><input type="radio" name="option" id="option5" onclick="radioButtonCheck();">&emsp;Retrieve N Most Frequent Borrowers in Branch</h3></center>
+<div id="option5-div">
+<form action='main'>
+	Branch ID: <input type='text' name='bid' id='bid' required><br>
+	N: <input type='text' name='n' id='n' required><br>
+	<button type='submit' name='inadmin-submit-5' value='inadmin-submit-5'>Submit</button>
+</form>
+</div>
+
+<br><br><hr>
+
+<center><h3><input type="radio" name="option" id="option6" onclick="radioButtonCheck();">&emsp;Retrieve N Most Frequent Borrowers in Library</h3></center>
+<div id="option6-div">
+<form action='main'>
+	N: <input type='text' name='n' id='n' required><br>
+	<button type='submit' name='inadmin-submit-6' value='inadmin-submit-6'>Submit</button>
+</form>
+</div>
+
+<br><br><hr>
+
+<center><h3><input type="radio" name="option" id="option7" onclick="radioButtonCheck();">&emsp;Retrieve N Most Borrowed Books in Branch</h3></center>
+<div id="option7-div">
+<form action='main'>
+	Branch ID: <input type='text' name='bid' id='bid' required><br>
+	N: <input type='text' name='n' id='n' required><br>
+	<button type='submit' name='inadmin-submit-7' value='inadmin-submit-7'>Submit</button>
+</form>
+</div>
+
+<br><br><hr>
+
+
+<center><h3><input type="radio" name="option" id="option8" onclick="radioButtonCheck();">&emsp;Retrieve N Most Borrowed Books in Library</h3></center>
+<div id="option8-div">
+<form action='main'>
+	N: <input type='text' name='n' id='n' required><br>
+	<button type='submit' name='inadmin-submit-8' value='inadmin-submit-8'>Submit</button>
+</form>
+</div>
+
+<br><br><hr>
+
+<center><h3><input type="radio" name="option" id="option9" onclick="radioButtonCheck();">&emsp;Retrieve 10 Most Popular Books Pertaining to Specific Year</h3></center>
+<div id="option9-div">
+<form action='main'>
+	Year (Format: yyyy): <input type='text' name='year' id='year' required><br>
+	<button type='submit' name='inadmin-submit-9' value='inadmin-submit-9'>Submit</button>
+</form>
+</div>
+
+<br><br><hr>
+
+
+<center><h3><input type="radio" name="option" id="option10" onclick="radioButtonCheck();">&emsp;Average Fine Paid By Borrowers</h3></center>
+<div id="option10-div">
+<form action='main'>
+	Start Date (Format: yyyy-mm-dd): <input type='text' name='start-date' id='start-date' required><br>
+	End Date (Format: yyyy-mm-dd): <input type='text' name='end-date' id='end-date' required><br>
+	<button type='submit' name='inadmin-submit-10' value='inadmin-submit-10'>Submit</button>
+</form>
+</div>
+
+<br><br><hr>
+
+<center><code>All rights reserved. &#169; Parikshit, Rashmi and Rajvi</code></center>
+
+</body>
+</html>

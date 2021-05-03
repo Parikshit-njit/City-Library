@@ -1,5 +1,5 @@
 # City-Library
-<h1>Database and Triggers Initialization</h1>
+<h1>Database and Triggers Initialization (Triggers included in the end of this readme file)</h1>
 <b>Copy and Paste the following in MySql Workbench</b><br><br>
 drop database lbms;
 create database lbms;
